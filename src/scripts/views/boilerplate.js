@@ -1,6 +1,9 @@
 class Boilerplate {
   constructor() {
-    this.initScript();
+    //call initScript function only if the player is seeing the boilerplate page
+    if (window.location.href.indexOf('boilerplate') > -1) {
+      this.initScript();
+    }
   }
 
   initScript() {
