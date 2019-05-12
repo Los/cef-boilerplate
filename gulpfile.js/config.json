@@ -1,0 +1,59 @@
+{
+	"root": {
+		"src": "./src",
+		"destDev": "./dist",
+		"destProd": "../../client_packages/dist",
+    "nodeModules": "./node_modules"
+	},
+
+	"tasks": {
+		"browserSync": {
+			"server": {
+				"baseDir": "./"
+			}
+		},
+
+		"styles": {
+			"src": "styles",
+			"dest": "styles",
+			"extensions": ["scss"]
+		},
+
+		"html": {
+			"src": "html",
+			"dest": "html",
+			"extensions": ["html"],
+			"exclude": ["js"]
+		},
+
+		"viewLinker": {
+			"src": "./",
+			"dest": "../",
+			"extensions": ["html"]
+		},
+
+		"scripts": {
+			"src": "scripts",
+			"dest": "scripts",
+			"extensions": ["js"]
+		},
+
+		"images": {
+			"src": "img",
+			"dest": "images",
+			"extensions": ["jpg", "png", "svg", "gif"]
+		},
+
+		"sounds": {
+			"src": "sounds",
+			"dest": "sounds",
+			"extensions": ["ogg"]
+		},
+
+		"fonts": {
+			"src": "fonts",
+			"dest": "fonts",
+			"extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    } 
+	}
+}

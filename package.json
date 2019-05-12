@@ -1,0 +1,58 @@
+{
+  "name": "cef-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for easier and faster UI development.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Los/cef-boilerplate.git"
+  },
+  "keywords": [
+    "cef",
+    "boilerplate",
+    "ui",
+    "html",
+    "es6",
+    "webpack",
+    "gulp"
+  ],
+  "author": "Lós",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Los/cef-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Los/cef-boilerplate#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "standard-version": "^4.4.0",
+    "webpack": "^4.28.3"
+  }
+}
